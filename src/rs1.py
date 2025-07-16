@@ -68,25 +68,15 @@ model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
 training_args = Seq2SeqTrainingArguments(
 
     output_dir="my_awesome_billsum_model",
-
     eval_strategy="epoch",
-
     learning_rate=2e-5,
-
     per_device_train_batch_size=16,
-
     per_device_eval_batch_size=16,
-
     weight_decay=0.01,
-
     save_total_limit=3,
-
     num_train_epochs=4,
-
     predict_with_generate=True,
-
     fp16=True, #change to bf16=True for XPU
-
     push_to_hub=True,
 
 )
