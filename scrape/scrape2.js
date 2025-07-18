@@ -1,13 +1,14 @@
 const axios = require('axios');
 const { convert } = require('html-to-text');
 
-function getTextSection(props) {
+function getTextSection(body, props) {
+
 
 
     return;
 }
 
-function getTextSections(props) {
+function getTextSections(body, props) {
 
     
 
