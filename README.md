@@ -1,3 +1,3 @@
 # tgml
 
-Data and modeling for issues related to gender.
+Data and modeling for issues relating to gender.
